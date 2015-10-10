@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275F2BCF1BC9AECC003C5BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BCE1BC9AECC003C5BC0 /* AppDelegate.swift */; };
+		275F2BD11BC9AECC003C5BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BD01BC9AECC003C5BC0 /* ViewController.swift */; };
+		275F2BD41BC9AECC003C5BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F2BD21BC9AECC003C5BC0 /* Main.storyboard */; };
+		275F2BD61BC9AECC003C5BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275F2BD51BC9AECC003C5BC0 /* Assets.xcassets */; };
+		275F2BD91BC9AECC003C5BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F2BD71BC9AECC003C5BC0 /* LaunchScreen.storyboard */; };
+		275F2BE21BC9AFA4003C5BC0 /* ClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BE11BC9AFA4003C5BC0 /* ClosetViewController.swift */; };
+		275F2BE41BC9AFCC003C5BC0 /* OutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BE31BC9AFCC003C5BC0 /* OutfitViewController.swift */; };
+		275F2BE71BC9B069003C5BC0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BE61BC9B069003C5BC0 /* Item.swift */; };
+		275F2BE91BC9B08D003C5BC0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BE81BC9B08D003C5BC0 /* Category.swift */; };
+		275F2BEB1BC9B0B3003C5BC0 /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BEA1BC9B0B3003C5BC0 /* Outfit.swift */; };
+		275F2BED1BC9B0D1003C5BC0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BEC1BC9B0D1003C5BC0 /* User.swift */; };
+		275F2BF01BC9B6DA003C5BC0 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BEF1BC9B6DA003C5BC0 /* Parse.swift */; };
+		275F2BF21BC9B729003C5BC0 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BF11BC9B729003C5BC0 /* PhotoViewController.swift */; };
+		62F3F2C127D4340E3A51A254 /* libPods-Watoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CE023EDFBD5386CA584A1B /* libPods-Watoo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		275F2BCB1BC9AECC003C5BC0 /* Watoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F2BCE1BC9AECC003C5BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		275F2BD01BC9AECC003C5BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		275F2BD31BC9AECC003C5BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		275F2BD51BC9AECC003C5BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		275F2BD81BC9AECC003C5BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		275F2BDA1BC9AECC003C5BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275F2BE11BC9AFA4003C5BC0 /* ClosetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosetViewController.swift; sourceTree = "<group>"; };
+		275F2BE31BC9AFCC003C5BC0 /* OutfitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutfitViewController.swift; sourceTree = "<group>"; };
+		275F2BE61BC9B069003C5BC0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		275F2BE81BC9B08D003C5BC0 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		275F2BEA1BC9B0B3003C5BC0 /* Outfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
+		275F2BEC1BC9B0D1003C5BC0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		275F2BEF1BC9B6DA003C5BC0 /* Parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		275F2BF11BC9B729003C5BC0 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		AA69A68C3586F6CA4729F737 /* Pods-Watoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watoo/Pods-Watoo.debug.xcconfig"; sourceTree = "<group>"; };
+		C0CE023EDFBD5386CA584A1B /* libPods-Watoo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watoo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F575756BCA300FA8193ABE3D /* Pods-Watoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watoo/Pods-Watoo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275F2BC81BC9AECC003C5BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F3F2C127D4340E3A51A254 /* libPods-Watoo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0211C05E10E13123B2A871D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA69A68C3586F6CA4729F737 /* Pods-Watoo.debug.xcconfig */,
+				F575756BCA300FA8193ABE3D /* Pods-Watoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		275F2BC21BC9AECC003C5BC0 = {
+			isa = PBXGroup;
+			children = (
+				275F2BCD1BC9AECC003C5BC0 /* Watoo */,
+				275F2BCC1BC9AECC003C5BC0 /* Products */,
+				0211C05E10E13123B2A871D3 /* Pods */,
+				B52DB5030C5A11A431CEDBF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		275F2BCC1BC9AECC003C5BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275F2BCB1BC9AECC003C5BC0 /* Watoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275F2BCD1BC9AECC003C5BC0 /* Watoo */ = {
+			isa = PBXGroup;
+			children = (
+				275F2BEE1BC9B6C5003C5BC0 /* API */,
+				275F2BE51BC9B03B003C5BC0 /* Models */,
+				275F2BE01BC9AF86003C5BC0 /* ViewControllers */,
+				275F2BCE1BC9AECC003C5BC0 /* AppDelegate.swift */,
+				275F2BD21BC9AECC003C5BC0 /* Main.storyboard */,
+				275F2BD51BC9AECC003C5BC0 /* Assets.xcassets */,
+				275F2BD71BC9AECC003C5BC0 /* LaunchScreen.storyboard */,
+				275F2BDA1BC9AECC003C5BC0 /* Info.plist */,
+			);
+			path = Watoo;
+			sourceTree = "<group>";
+		};
+		275F2BE01BC9AF86003C5BC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				275F2BD01BC9AECC003C5BC0 /* ViewController.swift */,
+				275F2BE11BC9AFA4003C5BC0 /* ClosetViewController.swift */,
+				275F2BE31BC9AFCC003C5BC0 /* OutfitViewController.swift */,
+				275F2BF11BC9B729003C5BC0 /* PhotoViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		275F2BE51BC9B03B003C5BC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				275F2BE61BC9B069003C5BC0 /* Item.swift */,
+				275F2BE81BC9B08D003C5BC0 /* Category.swift */,
+				275F2BEA1BC9B0B3003C5BC0 /* Outfit.swift */,
+				275F2BEC1BC9B0D1003C5BC0 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		275F2BEE1BC9B6C5003C5BC0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				275F2BEF1BC9B6DA003C5BC0 /* Parse.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		B52DB5030C5A11A431CEDBF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE023EDFBD5386CA584A1B /* libPods-Watoo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275F2BCA1BC9AECC003C5BC0 /* Watoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F2BDD1BC9AECC003C5BC0 /* Build configuration list for PBXNativeTarget "Watoo" */;
+			buildPhases = (
+				47BA03FB4D5EAC54565B9D00 /* Check Pods Manifest.lock */,
+				275F2BC71BC9AECC003C5BC0 /* Sources */,
+				275F2BC81BC9AECC003C5BC0 /* Frameworks */,
+				275F2BC91BC9AECC003C5BC0 /* Resources */,
+				5216B349D7A9DF3CB2F64BAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watoo;
+			productName = Watoo;
+			productReference = 275F2BCB1BC9AECC003C5BC0 /* Watoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275F2BC31BC9AECC003C5BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jay Shah";
+				TargetAttributes = {
+					275F2BCA1BC9AECC003C5BC0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2A4L5U37RZ;
+					};
+				};
+			};
+			buildConfigurationList = 275F2BC61BC9AECC003C5BC0 /* Build configuration list for PBXProject "Watoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 275F2BC21BC9AECC003C5BC0;
+			productRefGroup = 275F2BCC1BC9AECC003C5BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275F2BCA1BC9AECC003C5BC0 /* Watoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275F2BC91BC9AECC003C5BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F2BD91BC9AECC003C5BC0 /* LaunchScreen.storyboard in Resources */,
+				275F2BD61BC9AECC003C5BC0 /* Assets.xcassets in Resources */,
+				275F2BD41BC9AECC003C5BC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47BA03FB4D5EAC54565B9D00 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5216B349D7A9DF3CB2F64BAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watoo/Pods-Watoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275F2BC71BC9AECC003C5BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F2BE71BC9B069003C5BC0 /* Item.swift in Sources */,
+				275F2BD11BC9AECC003C5BC0 /* ViewController.swift in Sources */,
+				275F2BE21BC9AFA4003C5BC0 /* ClosetViewController.swift in Sources */,
+				275F2BCF1BC9AECC003C5BC0 /* AppDelegate.swift in Sources */,
+				275F2BED1BC9B0D1003C5BC0 /* User.swift in Sources */,
+				275F2BE41BC9AFCC003C5BC0 /* OutfitViewController.swift in Sources */,
+				275F2BE91BC9B08D003C5BC0 /* Category.swift in Sources */,
+				275F2BF01BC9B6DA003C5BC0 /* Parse.swift in Sources */,
+				275F2BEB1BC9B0B3003C5BC0 /* Outfit.swift in Sources */,
+				275F2BF21BC9B729003C5BC0 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		275F2BD21BC9AECC003C5BC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275F2BD31BC9AECC003C5BC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		275F2BD71BC9AECC003C5BC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275F2BD81BC9AECC003C5BC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275F2BDB1BC9AECC003C5BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		275F2BDC1BC9AECC003C5BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275F2BDE1BC9AECC003C5BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA69A68C3586F6CA4729F737 /* Pods-Watoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Watoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdr.Watoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		275F2BDF1BC9AECC003C5BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F575756BCA300FA8193ABE3D /* Pods-Watoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Watoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdr.Watoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275F2BC61BC9AECC003C5BC0 /* Build configuration list for PBXProject "Watoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F2BDB1BC9AECC003C5BC0 /* Debug */,
+				275F2BDC1BC9AECC003C5BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F2BDD1BC9AECC003C5BC0 /* Build configuration list for PBXNativeTarget "Watoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F2BDE1BC9AECC003C5BC0 /* Debug */,
+				275F2BDF1BC9AECC003C5BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275F2BC31BC9AECC003C5BC0 /* Project object */;
+}
