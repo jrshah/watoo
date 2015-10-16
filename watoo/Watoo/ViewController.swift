@@ -13,14 +13,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var wearToday: UIImageView!
     @IBOutlet weak var loginButton: UIImageView!
+    @IBOutlet weak var guestButton: UIButton!
+    @IBOutlet weak var leftHRLabel: UIView!
+    @IBOutlet weak var rightHRLabel: UIView!
+    @IBOutlet weak var orLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
         self.loginButton.alpha = 0
-
-        
+        self.guestButton.alpha = 0
+        self.leftHRLabel.alpha = 0
+        self.orLabel.alpha = 0
+        self.rightHRLabel.alpha = 0
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -67,7 +73,27 @@ class ViewController: UIViewController {
                                 }, completion: nil)
                         })
                         
+                        
+                        self.guestButton.alpha = 1
+                        
+                        UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1.5, options: UIViewAnimationOptions.AllowUserInteraction, animations: { () -> Void in
+                            
+                            self.guestButton.frame = CGRect(x: (self.view.frame.size.width/2) - (self.guestButton.frame.size.width/2), y: 484, width: self.guestButton.frame.size.width, height: self.guestButton.frame.size.height)
+                            
+                            
+                        }, completion: nil)
+                        
+                        UIView.animateWithDuration(0.5, animations: { () -> Void in
+                            
+                            self.leftHRLabel.alpha = 1
+                            self.orLabel.alpha = 1
+                            self.rightHRLabel.alpha = 1
+
+                        })
+                        
+                        
                 })
+                
         }
         
     }
