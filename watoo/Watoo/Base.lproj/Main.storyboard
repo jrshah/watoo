@@ -16,19 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watoo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgr-RA-seM">
-                                <rect key="frame" x="132" y="270" width="57" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLA-h4-LxQ">
-                                <rect key="frame" x="97" y="509" width="126" height="30"/>
-                                <state key="normal" title="Continue as Guest"/>
-                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="jSR-XC-49d">
+                                <rect key="frame" x="83" y="257" width="153" height="55"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logo-des" translatesAutoresizingMaskIntoConstraints="NO" id="MG9-RY-Wad">
+                                <rect key="frame" x="-100" y="185" width="85" height="22"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="login-button" translatesAutoresizingMaskIntoConstraints="NO" id="RKc-Qe-lpt">
+                                <rect key="frame" x="41" y="371" width="238" height="47"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jSR-XC-49d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BFs-fn-GI6"/>
+                            <constraint firstItem="jSR-XC-49d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HjI-11-kHn"/>
+                            <constraint firstItem="RKc-Qe-lpt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fO0-UY-TgD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RKc-Qe-lpt" secondAttribute="bottom" constant="150" id="nzu-Fo-hah"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="RKc-Qe-lpt" id="s3O-Fo-Ba2"/>
+                        <outlet property="logo" destination="jSR-XC-49d" id="8rf-1E-JVk"/>
+                        <outlet property="wearToday" destination="MG9-RY-Wad" id="l9a-LD-ksD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,4 +99,9 @@
             <point key="canvasLocation" x="634" y="380"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="login-button" width="238" height="47"/>
+        <image name="logo" width="153" height="55"/>
+        <image name="logo-des" width="85" height="22"/>
+    </resources>
 </document>
