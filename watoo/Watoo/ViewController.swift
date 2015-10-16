@@ -47,10 +47,13 @@ class ViewController: UIViewController {
                     
                     }, completion: { (Bool) -> Void in
                         
+                        self.guestButton.alpha = 1
+                        
                         UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1.5, options: UIViewAnimationOptions.AllowUserInteraction, animations: { () -> Void in
                             
                                  self.wearToday.frame = CGRect(x: (self.view.frame.size.width/2) - (self.wearToday.frame.size.width/2), y: 185, width: self.wearToday.frame.size.width, height: self.wearToday.frame.size.height)
                             
+                                 self.guestButton.frame = CGRect(x: (self.view.frame.size.width/2) - (self.guestButton.frame.size.width/2), y: 484, width: self.guestButton.frame.size.width, height: self.guestButton.frame.size.height)
                             
                             }, completion: { (Bool) -> Void in
                                 
@@ -58,7 +61,6 @@ class ViewController: UIViewController {
                         
                         
                         self.loginButton.alpha = 1
-                        
                         self.loginButton.transform = CGAffineTransformMakeScale(0.8, 0.8)
                         
                         UIView.animateWithDuration(0.2, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 10, options: UIViewAnimationOptions.AllowUserInteraction, animations: {
@@ -73,15 +75,7 @@ class ViewController: UIViewController {
                                 }, completion: nil)
                         })
                         
-                        
-                        self.guestButton.alpha = 1
-                        
-                        UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1.5, options: UIViewAnimationOptions.AllowUserInteraction, animations: { () -> Void in
-                            
-                            self.guestButton.frame = CGRect(x: (self.view.frame.size.width/2) - (self.guestButton.frame.size.width/2), y: 484, width: self.guestButton.frame.size.width, height: self.guestButton.frame.size.height)
-                            
-                            
-                        }, completion: nil)
+
                         
                         UIView.animateWithDuration(0.5, animations: { () -> Void in
                             
