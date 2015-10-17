@@ -4,6 +4,104 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
     </dependencies>
     <scenes>
+        <!--Tour View Controller-->
+        <scene sceneID="SnV-0n-Q5F">
+            <objects>
+                <viewController storyboardIdentifier="TourViewController" id="TVh-B8-Way" customClass="TourViewController" customModule="Watoo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9vH-Je-Yah"/>
+                        <viewControllerLayoutGuide type="bottom" id="TnJ-s8-MwB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="55G-jH-99n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDe-ZV-rlz">
+                                <rect key="frame" x="21" y="518" width="30" height="30"/>
+                                <state key="normal" title="Skip"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="flipHorizontal" id="Rj5-eP-xDG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zj1-qq-Tjf">
+                                <rect key="frame" x="268" y="518" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="28w-Io-BcT" kind="modal" modalTransitionStyle="partialCurl" id="d7S-8M-Ado"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Azc-xo-IpK">
+                                <rect key="frame" x="82" y="183" width="153" height="55"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ote-OG-ZYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-918" y="-60"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Xc-mb-JaI">
+            <objects>
+                <viewController id="28w-Io-BcT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RnB-jP-Q9w"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lsb-gK-iNf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U1m-pM-rWL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwH-gK-Xl7">
+                                <rect key="frame" x="28" y="518" width="30" height="30"/>
+                                <state key="normal" title="Skip"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="flipHorizontal" id="6If-5r-Pig"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHZ-wg-WnN">
+                                <rect key="frame" x="261" y="518" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="x2H-TI-fPT" kind="modal" modalTransitionStyle="partialCurl" id="71f-Je-qMN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z7G-uq-k7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-553" y="-60"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="M8S-gB-VO7">
+            <objects>
+                <viewController id="x2H-TI-fPT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tsK-Az-oGW"/>
+                        <viewControllerLayoutGuide type="bottom" id="qDb-AO-rgI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MFh-iC-hLY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dM-nG-sqn">
+                                <rect key="frame" x="259" y="518" width="37" height="30"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="flipHorizontal" id="MlP-K7-0SZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Lv-Bm-zuI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-181" y="-60"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -67,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-128" y="381"/>
+            <point key="canvasLocation" x="-918" y="628"/>
         </scene>
         <!--Closet View Controller-->
         <scene sceneID="1ii-V7-m2a">
@@ -85,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JqA-9T-fjJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="381"/>
+            <point key="canvasLocation" x="-553" y="628"/>
         </scene>
         <!--Photo View Controller-->
         <scene sceneID="dnj-Sk-t7V">
@@ -103,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Vu-2s-8Am" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="1009"/>
+            <point key="canvasLocation" x="-546" y="1271"/>
         </scene>
         <!--Outfit View Controller-->
         <scene sceneID="Zpj-dH-HJz">
@@ -121,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K7S-Zn-I2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="634" y="380"/>
+            <point key="canvasLocation" x="-181" y="628"/>
         </scene>
     </scenes>
     <resources>
@@ -129,4 +227,7 @@
         <image name="logo" width="153" height="55"/>
         <image name="logo-des" width="85" height="22"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="MlP-K7-0SZ"/>
+    </inferredMetricsTieBreakers>
 </document>

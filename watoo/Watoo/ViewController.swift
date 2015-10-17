@@ -27,9 +27,13 @@ class ViewController: UIViewController {
         self.leftHRLabel.alpha = 0
         self.orLabel.alpha = 0
         self.rightHRLabel.alpha = 0
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
+        
     }
     
     override func viewDidAppear(animated: Bool) {
+        
         super.viewDidAppear(animated)
         
         UIView.animateWithDuration(0.5, animations: { () -> Void in

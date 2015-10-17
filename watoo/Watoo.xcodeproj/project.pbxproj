@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2738E0191BD2C87100A37E79 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738E0181BD2C87100A37E79 /* TourViewController.swift */; };
 		275F2BCF1BC9AECC003C5BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BCE1BC9AECC003C5BC0 /* AppDelegate.swift */; };
 		275F2BD11BC9AECC003C5BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F2BD01BC9AECC003C5BC0 /* ViewController.swift */; };
 		275F2BD41BC9AECC003C5BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F2BD21BC9AECC003C5BC0 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2738E0181BD2C87100A37E79 /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
 		275F2BCB1BC9AECC003C5BC0 /* Watoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275F2BCE1BC9AECC003C5BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		275F2BD01BC9AECC003C5BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				275F2BE11BC9AFA4003C5BC0 /* ClosetViewController.swift */,
 				275F2BE31BC9AFCC003C5BC0 /* OutfitViewController.swift */,
 				275F2BF11BC9B729003C5BC0 /* PhotoViewController.swift */,
+				2738E0181BD2C87100A37E79 /* TourViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				275F2BD11BC9AECC003C5BC0 /* ViewController.swift in Sources */,
 				275F2BE21BC9AFA4003C5BC0 /* ClosetViewController.swift in Sources */,
 				275F2BCF1BC9AECC003C5BC0 /* AppDelegate.swift in Sources */,
+				2738E0191BD2C87100A37E79 /* TourViewController.swift in Sources */,
 				275F2BED1BC9B0D1003C5BC0 /* User.swift in Sources */,
 				275F2BE41BC9AFCC003C5BC0 /* OutfitViewController.swift in Sources */,
 				275F2BE91BC9B08D003C5BC0 /* Category.swift in Sources */,

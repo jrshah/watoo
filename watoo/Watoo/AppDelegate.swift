@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var storyboard = UIStoryboard(name: "Main", bundle: nil)
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -19,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Parse Setup.
         //Parse.setApplicationId("6aVkB1TZSxJ6b5Wgvcz71ktm7F88fIBzkuYb4OHC",clientKey: "fs4mZOgH4hPuHep5y9HPYNYgPchBUSBz4ZY2dhB0");
+
+        // to check if the user has already launched the application before or not.
+        didFinishLaunchingOnce()
         
         return true
     }
@@ -43,6 +47,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func didFinishLaunchingOnce() -> Bool
+    {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        if let _ = defaults.stringForKey("hasAppBeenLaunchedBefore")
+        {
+            //print(" N-th time app launched ")
+            let vc = storyboard.instantiateViewControllerWithIdentifier("ViewController") as UIViewController
+            window?.rootViewController = vc
+            
+            return true
+        }
+        else
+        {
+            //print(" First time app launched ")
+            defaults.setBool(true, forKey: "hasAppBeenLaunchedBefore")
+            
+            let vc = storyboard.instantiateViewControllerWithIdentifier("TourViewController") as UIViewController
+            window?.rootViewController = vc
+
+            return false
+        }
     }
 
 
